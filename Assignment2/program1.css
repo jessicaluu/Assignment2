@@ -1,0 +1,77 @@
+/* Navigation Menu */
+#nav ul {
+  margin: 4px;
+  padding: 4px;
+  list-style-type: none;
+}
+
+#nav li {
+  float: left;
+  border-right: 8px solid #003366;
+}
+
+#nav li a {
+  display: block;
+  padding: 8px;
+  background-color: #F0F0F0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFCC00;
+  color: #000000;
+  font-family: Georgia, Garamond, serif;
+  clear: both;
+}
+
+/* THIS IS THE EXTRA FEATURE TO SHOW I KNOW HOW TO USE IT. HOWEVER, IT DOESN'T
+AESTHETICALLY LOOK APPEALING.
+img {
+  float: left;
+}*/
+
+/* Headings */
+h1, h2, caption, #titleheading, #titleheading2, #titleheading3 {
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h3, h4, h5, h6 {
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+caption {
+  font-weight: bold;
+}
+
+/* Tables */
+table {
+  background-color: #CC9933;
+  color: #FFFFFF;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+/* --- table heading th */
+th {
+  background-color: #003366;
+  color: #FFFFFF;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+}
+
+thead, th, td {
+  border-color: #FFFFFF;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+span {
+  font-weight: normal;
+}
